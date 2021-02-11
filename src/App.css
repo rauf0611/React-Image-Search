@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+/* Firsth Navbar */
+
+.firsth {
+    height: 45px;
+    background: #201E1E;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.firsth .navbar-nav {
+    padding: 14px 70px;
+}
+
+.firsth .navbar-nav a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF !important;
+    margin: 0px 30px;
+}
+
+/* Second Navbar */
+
+.second {
+    height: 110px;
+    background: #ED3237;
+}
+
+.second .navbar-brand {
+    padding: 30px 95px;
+}
+
+.second .navbar-brand img {
+    width: 110px;
+    height: 60px;
+}
+
+.second .navbar-nav a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF !important;
+    margin: 0px 34px;
+    text-align: center;
+}
+
+.second .navbar-nav a svg {
+    width: 30px;
+    height: 25px;
+    margin-bottom: 2px;
+}
+
+.second .navbar-nav a h6 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.second input {
+    background: transparent !important;
+    color: #ddd !important;
+    border: 1px solid #FFFFFF !important;
+    border-left: none !important;
+    width: 500px;
+    height: 50px;
+}
+
+.ui.action.input:not([class*="left action"])>input {
+    border-radius: 0px !important;
+}
+
+.second .border {
+    border: 1px solid #FFFFFF !important;
+    border-radius: 0px !important;
+}
+
+.second .border .text {
+    color: white;
+}
+
+i.icon:before {
+    background: 0 0!important;
+    color: white;
+    font-size: 1.2em;
+}
+
+.ui.icon.button, .ui.icon.buttons .button {
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: 1px solid #fff;
+    vertical-align: baseline;
+    background: transparent !important;
+    color: rgba(0, 0, 0, .6);
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    margin: 0 .25em 0 0;
+    padding: .78571429em 1.5em .78571429em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ui.basic.button:hover, .ui.basic.buttons .button:hover {
+    background: transparent !important;
+    color: rgba(0, 0, 0, .8)!important;
+    -webkit-box-shadow: 0 0 0 1px rgb(34 36 38 / 35%) inset, 0 0 0 0 rgb(34 36 38 / 15%) inset;
+    box-shadow: 0 0 0 1px rgb(34 36 38 / 35%) inset, 0 0 0 0 rgb(34 36 38 / 15%) inset;
+}
+
+/* Third Navbar */
+
+.third {
+    background: #FFFFFF;
+}
+
+.third .navbar-nav a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: black !important;
+    margin: 0px 30px;
+    text-align: center;
+}
+
+.third .navbar-brand {
+    padding: 30px 0px;
+    color: black !important;
+}
+
+/* section */
+
+.section1 .left-col {
+    height: 500px;
+    background: #F9F9F9;
+    display: inline-block;
+    width: 1010px;
+    color: #201E1E;
+    margin-right: 20px;
+}
+
+.section1 .row1 {
+    width: 87%;
+    margin: auto;
+}
+
+.section1 .right-col {
+    height: 240px;
+    width: 345px;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.section1 .bottom {
+    background: #ED3237;
+    margin-bottom: 20px;
+}
+
+.section1 .red-p {
+    color: #ED3237;
+}
+
+.section1 h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    color: #201E1E;
+}
+
+.section1 .bottom h1 {
+    color: #FFFFFF;
+    padding: 28px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 104%
+}
+
+.section1 .bottom p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0px 30px;
+    color: #FFFFFF;
+}
+
+.section1 .top {
+    background: #201E1E;
+}
+
+.section1 .top h1 {
+    color: #FFFFFF;
+    padding: 28px 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 104%
+}
+
+.section1 .top p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0px 30px;
+    color: #FFFFFF;
+}
+
+/* ADDDDDD */
+
+img {
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+img:hover{
+    transform: scale(1.2);
+    transition: 0.4s ease-in;
+}
